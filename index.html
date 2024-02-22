@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personel portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bf97c278de.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- home section -->
+
+    <div id="header">
+
+        <div class="container">
+            <nav>
+
+                <video loop style="border-radius: 100px;" height="100px" width="100px" autoplay
+                    src="faizan.mp4"></video>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark menu" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars menu "onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web developer</p>
+                <h1>Hi, I'm <span>faizan</span><br> ahmed </br> from India</h1>
+            </div>
+        </div>
+
+    </div>
+    <!-- about section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutcol1">
+                    <img src="faizanbc.png" alt="user pic">
+                </div>
+                <div class="aboutcol2">
+                    <h1 class="subtitle">
+                        About me
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sit distinctio inventore
+                        aliquam minus iste deserunt quod laboriosam sapiente magni, culpa in nemo, saepe expedita velit
+                        totam ipsum pariatur. Rerum minima ut architecto laborum tenetur totam vero quidem autem
+                        delectus consequuntur obcaecati, voluptatem at assumenda aliquid perferendis dolores animi odit
+                        itaque. Nihil ut libero, dolorum placeat esse alias quidem dolor. Inventore veritatis nemo, iure
+                        unde eum quos sit porro impedit reprehenderit? Atque magnam adipisci unde eum deleniti quod!
+                        Ratione a doloremque officia quam! Autem harum omnis temporibus numquam ullam in facilis quos
+                        nihil, officia fugit dicta, voluptas, esse sit nesciunt.
+                        <!-- links :skills,experience,education -->
+                    <div class="tabtitles">
+                        <p class="tablinks activelink" onclick="opentab('skills')">Skills</p>
+
+                        <p class="tablinks" onclick="opentab('education')">Education</p>
+                        <p class="tablinks" onclick="opentab('experience')">Experience</p>
+
+
+                        <!-- skills -->
+                    </div>
+
+                    <div class="tabcontents activetab" id="skills">
+                        <ul>
+
+                            <li><span>UI/UX</span><br>Designing web app interfaces</li>
+                            <li><span>Web development</span><br>Full-Stack development</li>
+                            <li><span>Android development</span><br>Designing app interfaces</li>
+                        </ul>
+                    </div>
+
+                    <!-- experience -->
+                    <div class="tabcontents" id="experience">
+                        <ul>
+
+                            <li><span></span><br>currently a undergrad student</li>
+
+                        </ul>
+                    </div>
+                    <!--  education-->
+                    <div class="tabcontents" id="education">
+                        <ul>
+
+                            <li><span>2022-current</span><br>Btech at Kitsw</li>
+                            <li><span>2020-2022</span><br>Intermediate at Sr Edu centre</li>
+                            <li><span>2020</span><br>Schooling at JSM high school</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">
+                My Services
+            </h1>
+            <div class="serviceslist">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae odit, quis, maxime repellat
+                        voluptatem placeat soluta pariatur dolor </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App development
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae odit, quis, maxime repellat
+                        voluptatem placeat soluta pariatur dolor </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-toolbox"></i>
+                    <h2>tool testing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae odit, quis, maxime repellat
+                        voluptatem placeat soluta pariatur dolor </p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -------------PORTFOLIO------ -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">
+                My Work
+            </h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="work-1.png">
+                
+                <div class="layer">
+                    <h3>Shopping mall app</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo temporibus ratione odit aut quisquam unde culpa autem, ipsum inventore distinctio?</p>
+                    <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                    
+                </div></div>
+                <div class="work">
+                    <img src="work-2.png">
+                
+                <div class="layer">
+                    <h3>Media player App</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo temporibus ratione odit aut quisquam unde culpa autem, ipsum inventore distinctio?</p>
+                   <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+                    </div></div>
+                
+                <div class="work"><img src="work-3.png">
+                <div class="layer">
+                    <h3>Calculator</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo temporibus ratione odit aut quisquam unde culpa autem, ipsum inventore distinctio?</p>
+                   <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a class="btn" href="#">See more</a>
+        </div>
+    </div>
+    </div>
+
+
+    <div id="contact">
+
+        <div class="container">
+            <div class="row">
+                <div class="contactleft">
+                    <h1 class="subtitle">
+                        Contact Me
+                    </h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>mfaizancse@gmail.com
+                    </p>
+                    <p><i class="fa-solid fa-phone"></i> +91 7995448610</p>
+                    <div class="social-icons">
+
+                       <a href="#"><i class="fa-brands fa-whatsapp" style="color: #63E6BE;"></i></a> 
+                       
+                    </div>
+                    <div>
+                        <a href="Resume2.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                </div>
+                <div class="contactright">
+                    <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message"  rows="6" placeholder="Type your message" required></textarea>
+                    <button class="btn btn2 btn3" type="submit">Submit</button>
+                       
+                
+                </form>
+
+                
+                    <span id="msg"></span>
+
+                  
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2024 Faizan. All rights reserved. Embrace the beauty of creativity and innovation."</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tablinks");
+        var tabcontents = document.getElementsByClassName("tabcontents");
+        function opentab(tabname) {
+
+            for (tablink of tablinks) {
+                tablink.classList.remove("activelink");
+
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("activetab");
+            }
+            event.currentTarget.classList.add("activelink");
+            document.getElementById(tabname).classList.add("activetab")
+        }
+    </script>
+
+    <script>
+        var sidemeu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwAuA0Ss90TC6R7SXUhJHYMAYHkS_NImkkTMfdeH7Pb26KIxMBcZybHaQPcg90eYOxQJg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent succesfully"
+            setTimeout(() => {
+                msg.innerHTML="";
+            }, 5000);
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+</html>
